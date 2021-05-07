@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.zuzhi">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/navlogo"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".Privacy"></activity>
+        <activity android:name=".AboutUs" />
+        <activity android:name=".Reminder" />
+        <activity android:name=".Rate" />
+        <activity android:name=".Nondinner" />
+        <activity android:name=".Nonlunch" />
+        <activity android:name=".Nonbreakfast" />
+        <activity android:name=".Vdinner" />
+        <activity android:name=".Vlunch" />
+        <activity android:name=".Vbreakfast" />
+        <activity android:name=".Non_Vegan" />
+        <activity android:name=".Vegan" />
+        <activity android:name=".Diet" />
+        <activity android:name=".Profile" />
+        <activity android:name=".Login" />
+        <activity android:name=".Register" />
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

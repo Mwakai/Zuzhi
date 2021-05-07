@@ -1,0 +1,396 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Vbreakfast">
+
+    <androidx.core.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+
+
+            <androidx.cardview.widget.CardView
+                android:layout_margin="20dp"
+                app:cardElevation="8dp"
+                app:cardCornerRadius="12dp"
+                android:layout_width="match_parent"
+                android:layout_height="250dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <com.denzcoskun.imageslider.ImageSlider
+                        android:background="@drawable/sweetpotato"
+                        android:layout_margin="20dp"
+                        android:id="@+id/image_slider"
+                        android:layout_width="match_parent"
+                        android:layout_height="130dp"
+                        app:iss_auto_cycle="true"
+                        app:iss_period="1000"
+                        app:iss_delay="0"/>
+
+                    <TextView
+                        android:id="@+id/title"
+                        android:text="MONDAY MEALS"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:paddingLeft="30dp"
+                        android:gravity="left"
+                        android:layout_marginRight="20dp"
+                        android:textStyle="bold"
+                        android:textSize="16sp"
+                        android:textColor="@android:color/black"
+                        />
+
+                    <Button
+                        android:onClick="Vmonday"
+                        android:id="@+id/btn"
+                        android:layout_marginTop="10dp"
+                        android:layout_width="140dp"
+                        android:layout_height="40dp"
+                        android:text="View All"
+                        android:elevation="12dp"
+                        android:layout_gravity="center"
+                        android:textSize="18sp"
+                        android:textColor="@android:color/black"
+                        android:background="@drawable/view_all_button"
+                        />
+
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_margin="20dp"
+                app:cardElevation="8dp"
+                app:cardCornerRadius="12dp"
+                android:layout_width="match_parent"
+                android:layout_height="250dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <com.denzcoskun.imageslider.ImageSlider
+                        android:background="@drawable/bread"
+                        android:layout_margin="20dp"
+                        android:id="@+id/image_slider1"
+                        android:layout_width="match_parent"
+                        android:layout_height="130dp"
+                        app:iss_auto_cycle="true"
+                        app:iss_period="1000"
+                        app:iss_delay="0"/>
+
+                    <TextView
+                        android:id="@+id/title1"
+                        android:text="TUESDAY MEALS"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:paddingLeft="30dp"
+                        android:gravity="left"
+                        android:layout_marginRight="20dp"
+                        android:textStyle="bold"
+                        android:textSize="16sp"
+                        android:textColor="@android:color/black"
+                        />
+
+                    <Button
+                        android:onClick="Vtuesday"
+                        android:id="@+id/btn1"
+                        android:layout_marginTop="10dp"
+                        android:layout_width="140dp"
+                        android:layout_height="40dp"
+                        android:text="View All"
+                        android:elevation="12dp"
+                        android:layout_gravity="center"
+                        android:textSize="18sp"
+                        android:textColor="@android:color/black"
+                        android:background="@drawable/view_all_button"
+                        />
+
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+
+
+            <androidx.cardview.widget.CardView
+                android:layout_margin="20dp"
+                app:cardElevation="8dp"
+                app:cardCornerRadius="12dp"
+                android:layout_width="match_parent"
+                android:layout_height="250dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <com.denzcoskun.imageslider.ImageSlider
+                        android:background="@drawable/bun"
+                        android:layout_margin="20dp"
+                        android:id="@+id/image_slider2"
+                        android:layout_width="match_parent"
+                        android:layout_height="130dp"
+                        app:iss_auto_cycle="true"
+                        app:iss_period="1000"
+                        app:iss_delay="0"/>
+
+                    <TextView
+                        android:id="@+id/title2"
+                        android:text="WEDNASDAY MEALS"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:paddingLeft="30dp"
+                        android:gravity="left"
+                        android:layout_marginRight="20dp"
+                        android:textStyle="bold"
+                        android:textSize="16sp"
+                        android:textColor="@android:color/black"
+                        />
+
+                    <Button
+                        android:onClick="Vwednesday"
+                        android:id="@+id/btn2"
+                        android:layout_marginTop="10dp"
+                        android:layout_width="140dp"
+                        android:layout_height="40dp"
+                        android:text="View All"
+                        android:elevation="12dp"
+                        android:layout_gravity="center"
+                        android:textSize="18sp"
+                        android:textColor="@android:color/black"
+                        android:background="@drawable/view_all_button"
+                        />
+
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+
+
+            <androidx.cardview.widget.CardView
+                android:layout_margin="20dp"
+                app:cardElevation="8dp"
+                app:cardCornerRadius="12dp"
+                android:layout_width="match_parent"
+                android:layout_height="250dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <com.denzcoskun.imageslider.ImageSlider
+                        android:background="@drawable/mandaz"
+                        android:layout_margin="20dp"
+                        android:id="@+id/image_slider3"
+                        android:layout_width="match_parent"
+                        android:layout_height="130dp"
+                        app:iss_auto_cycle="true"
+                        app:iss_period="1000"
+                        app:iss_delay="0"/>
+
+                    <TextView
+                        android:id="@+id/title3"
+                        android:text="THURSDAY MEALS"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:paddingLeft="30dp"
+                        android:gravity="left"
+                        android:layout_marginRight="20dp"
+                        android:textStyle="bold"
+                        android:textSize="16sp"
+                        android:textColor="@android:color/black"
+                        />
+
+                    <Button
+                        android:onClick="Vthursday"
+                        android:id="@+id/btn3"
+                        android:layout_marginTop="10dp"
+                        android:layout_width="140dp"
+                        android:layout_height="40dp"
+                        android:text="View All"
+                        android:elevation="12dp"
+                        android:layout_gravity="center"
+                        android:textSize="18sp"
+                        android:textColor="@android:color/black"
+                        android:background="@drawable/view_all_button"
+                        />
+
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+
+
+            <androidx.cardview.widget.CardView
+                android:layout_margin="20dp"
+                app:cardElevation="8dp"
+                app:cardCornerRadius="12dp"
+                android:layout_width="match_parent"
+                android:layout_height="250dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <com.denzcoskun.imageslider.ImageSlider
+                        android:background="@drawable/bread"
+                        android:layout_margin="20dp"
+                        android:id="@+id/image_slider4"
+                        android:layout_width="match_parent"
+                        android:layout_height="130dp"
+                        app:iss_auto_cycle="true"
+                        app:iss_period="1000"
+                        app:iss_delay="0"/>
+
+                    <TextView
+                        android:id="@+id/title4"
+                        android:text="FRIDAY MEALS"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:paddingLeft="30dp"
+                        android:gravity="left"
+                        android:layout_marginRight="20dp"
+                        android:textStyle="bold"
+                        android:textSize="16sp"
+                        android:textColor="@android:color/black"
+                        />
+
+                    <Button
+                        android:onClick="Vfriday"
+                        android:id="@+id/btn4"
+                        android:layout_marginTop="10dp"
+                        android:layout_width="140dp"
+                        android:layout_height="40dp"
+                        android:text="View All"
+                        android:elevation="12dp"
+                        android:layout_gravity="center"
+                        android:textSize="18sp"
+                        android:textColor="@android:color/black"
+                        android:background="@drawable/view_all_button"
+                        />
+
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+
+
+            <androidx.cardview.widget.CardView
+                android:layout_margin="20dp"
+                app:cardElevation="8dp"
+                app:cardCornerRadius="12dp"
+                android:layout_width="match_parent"
+                android:layout_height="250dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <com.denzcoskun.imageslider.ImageSlider
+                        android:background="@drawable/groundnuts"
+                        android:layout_margin="20dp"
+                        android:id="@+id/image_slider5"
+                        android:layout_width="match_parent"
+                        android:layout_height="130dp"
+                        app:iss_auto_cycle="true"
+                        app:iss_period="1000"
+                        app:iss_delay="0"/>
+
+                    <TextView
+                        android:id="@+id/title5"
+                        android:text="SATURDAY MEALS"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:paddingLeft="30dp"
+                        android:gravity="left"
+                        android:layout_marginRight="20dp"
+                        android:textStyle="bold"
+                        android:textSize="16sp"
+                        android:textColor="@android:color/black"
+                        />
+
+                    <Button
+                        android:onClick="Vsaturday"
+                        android:id="@+id/btn5"
+                        android:layout_marginTop="10dp"
+                        android:layout_width="140dp"
+                        android:layout_height="40dp"
+                        android:text="View All"
+                        android:elevation="12dp"
+                        android:layout_gravity="center"
+                        android:textSize="18sp"
+                        android:textColor="@android:color/black"
+                        android:background="@drawable/view_all_button"
+                        />
+
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+
+
+            <androidx.cardview.widget.CardView
+                android:layout_margin="20dp"
+                app:cardElevation="8dp"
+                app:cardCornerRadius="12dp"
+                android:layout_width="match_parent"
+                android:layout_height="250dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <com.denzcoskun.imageslider.ImageSlider
+                        android:background="@drawable/sandwich"
+                        android:layout_margin="20dp"
+                        android:id="@+id/image_slider6"
+                        android:layout_width="match_parent"
+                        android:layout_height="130dp"
+                        app:iss_auto_cycle="true"
+                        app:iss_period="1000"
+                        app:iss_delay="0"/>
+
+                    <TextView
+                        android:id="@+id/title6"
+                        android:text="SUNDAY MEALS"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:paddingLeft="30dp"
+                        android:gravity="left"
+                        android:layout_marginRight="20dp"
+                        android:textStyle="bold"
+                        android:textSize="16sp"
+                        android:textColor="@android:color/black"
+                        />
+
+                    <Button
+                        android:onClick="Vsunday"
+                        android:id="@+id/btn6"
+                        android:layout_marginTop="10dp"
+                        android:layout_width="140dp"
+                        android:layout_height="40dp"
+                        android:text="View All"
+                        android:elevation="12dp"
+                        android:layout_gravity="center"
+                        android:textSize="18sp"
+                        android:textColor="@android:color/black"
+                        android:background="@drawable/view_all_button"
+                        />
+
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+
+
+        </LinearLayout>
+
+    </androidx.core.widget.NestedScrollView>
+
+</LinearLayout>

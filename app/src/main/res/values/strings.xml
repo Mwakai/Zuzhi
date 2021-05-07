@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Zuzhi</string>
+    <string name="dietName">DietName</string>
+    <string name="break_fast">BreakFast</string>
+    <string name="open" />
+    <string name="close" />
+    <string name="inc">©2021 Zuzhi Inc.</string>
+    <string name="rice_ndengu"><![CDATA[RICE & NDENGU]]></string>
+    <string name="zuzhi">Zuzhi</string>
+    <string name="organise_how_you_take_your_meals">Organise How You Take Your Meals</string>
+    <string name="version_1_0_1">Version 1.0.1</string>
+</resources>
